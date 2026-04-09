@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>医疗行业AI新闻合集</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏥 医疗行业AI新闻合集</h1>
+            <p class="subtitle">每日更新最新医疗AI资讯，聚焦行业前沿动态</p>
+        </header>
+
+        <div class="search-section">
+            <input type="text" id="searchInput" placeholder="搜索新闻关键词..." onkeyup="searchNews()">
+            <button onclick="searchNews()">🔍 搜索</button>
+        </div>
+
+        <div class="stats">
+            <div class="stat-item">
+                <span class="stat-number" id="totalNews">0</span>
+                <span class="stat-label">总新闻数</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" id="totalDays">0</span>
+                <span class="stat-label">更新天数</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" id="lastUpdate">-</span>
+                <span class="stat-label">最后更新</span>
+            </div>
+        </div>
+
+        <div class="date-nav" id="dateNav">
+            <!-- 日期导航将动态生成 -->
+        </div>
+
+        <div class="news-container" id="newsContainer">
+            <!-- 新闻内容将动态加载 -->
+        </div>
+
+        <div class="no-results" id="noResults" style="display: none;">
+            <p>😔 未找到相关新闻</p>
+        </div>
+    </div>
+
+    <script src="news-data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
