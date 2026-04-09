@@ -1,6 +1,6 @@
 // 新闻数据存储
 // 格式: { "YYYY-MM-DD": [ { title, summary, source, url }, ... ] }
-// 最后更新: 2026/4/9 22:45:00
+// 最后更新: 2026/4/9 23:15:00
 
 const allNewsData = {
     "2026-04-08": [
@@ -67,64 +67,64 @@ const allNewsData = {
     ],
     "2026-04-09": [
         {
-            title: "扬州深耕医学AI试验田 打造智慧医疗新标杆",
-            summary: "苏北人民医院正式签约成为国家人工智能应用中试基地生态合作伙伴，与联影医疗签署战略合作协议，深化人工智能+医疗卫生布局，推进影像大模型、AI手术规划等合作。",
-            source: "百家号",
-            url: "https://baijiahao.baidu.com/s?id=1861956483024715388"
+            title: "The regulation of artificial intelligence in intensive care units: from narrow tools to generalist systems",
+            summary: "ICU中AI监管从窄工具到通用系统的演进，探讨AI医疗器械在重症监护中的监管框架、临床验证要求和安全性保障措施。",
+            source: "npj Digital Medicine",
+            url: "https://www.nature.com/articles/s41746-026-02535-3"
         },
         {
-            title: "医渡科技当选中国医疗保险研究会理事单位 以AI技术赋能医疗保障",
-            summary: "依托AI医疗大脑YiduCore技术底座，创新应用于疾病预测、智能核保与理赔等方向，推出主动式快赔服务，理赔时效提升60%-70%。",
-            source: "百家号",
-            url: "https://baijiahao.baidu.com/s?id=1861976143854303308"
+            title: "Digital physiological biomarkers predict within-person symptom changes in complex chronic illness",
+            summary: "数字生理生物标志物可预测复杂慢性病患者症状变化，通过可穿戴设备和AI算法实现个性化健康监测和早期预警。",
+            source: "npj Digital Medicine",
+            url: "https://www.nature.com/articles/s41746-026-02543-3"
         },
         {
-            title: "小肝人智能体亮相江苏省政府路演推进会 助力医疗普惠",
-            summary: "中国科学院院士滕皋军团队与医渡科技联合研发肝病诊疗智能体，在人工智能+医疗健康路演推进会上展示AI与医疗深度融合成果。",
-            source: "百家号",
-            url: "https://baijiahao.baidu.com/s?id=1861897254535743255"
+            title: "Overcoming Data Loss in Wearable Disease Detection with GAN-Based Imputation",
+            summary: "使用GAN生成对抗网络解决可穿戴设备疾病检测中的数据丢失问题，提升AI诊断系统的准确性和可靠性。",
+            source: "npj Digital Medicine",
+            url: "https://www.nature.com/articles/s41746-026-02518-4"
         },
         {
-            title: "北电数智联合北京清华长庚医院发布清智·AI合理用药大模型",
-            summary: "全国首个AI合理用药大模型发布，突破传统规则审方系统局限，实现针对多药共用、多病共存等高复杂场景的精准应对，引领千人千方新时代。",
-            source: "百家号",
-            url: "https://baijiahao.baidu.com/s?id=1861882277693437143"
+            title: "The doctor is not in, but the Chatbot is: Utah's experience regulating mental health AI",
+            summary: "犹他州监管心理健康AI的经验，探讨生成式AI心理健康代理的政策挑战、风险评估和监管框架。",
+            source: "npj Digital Medicine",
+            url: "https://www.nature.com/articles/s41746-026-02580-y"
         },
         {
-            title: "村里来了AI医生 基层医疗迎来智能化变革",
-            summary: "清镇市投入3100万元建成县域医疗数据中心，推动人工智能医疗辅助系统县乡村三级全覆盖，252家医疗机构数据实现互联互通。",
-            source: "百家号",
-            url: "https://baijiahao.baidu.com/s?id=1861871077680594494"
+            title: "An EEG-based digital biomarker for personalizing transcranial magnetic stimulation in major depressive disorder",
+            summary: "基于EEG的数字生物标志物用于个性化经颅磁刺激治疗重度抑郁症，AI辅助精准医疗应用。",
+            source: "npj Digital Medicine",
+            url: "https://www.nature.com/articles/s41746-026-02603-8"
         },
         {
-            title: "MedMate打造中国首个医生超级助理 医生智能体双端协同",
-            summary: "整合超过4000万篇中英文学术文献、3万余份临床指南及30万+份药品说明书，首创五维循证架构，打造医生智能助理。",
-            source: "百家号",
-            url: "https://baijiahao.baidu.com/s?id=1861891215934249499"
+            title: "Towards noninvasive blood count using a deep learning pipeline from bulbar conjunctiva videos",
+            summary: "深度学习从球结膜视频实现无创血液计数，AI医学影像诊断新突破，无需采血即可检测血液指标。",
+            source: "npj Digital Medicine",
+            url: "https://www.nature.com/articles/s41746-026-02598-2"
         },
         {
-            title: "凯文·凯利对话未来医生CEO：医疗AGI时刻正在到来",
-            summary: "科技先知凯文·凯利与未来医生创始人王仕锐展开对话，探讨人工智能在医疗领域的未来发展趋势和AGI时代的医疗变革。",
-            source: "百家号",
-            url: "https://baijiahao.baidu.com/s?id=1861871807261152471"
+            title: "ClinicRealm: Re-evaluating large language models with conventional machine learning for non-generative clinical prediction tasks",
+            summary: "重新评估大语言模型与传统机器学习在非生成性临床预测任务中的表现，AI临床决策支持系统研究。",
+            source: "npj Digital Medicine",
+            url: "https://www.nature.com/articles/s41746-026-02539-z"
         },
         {
-            title: "多领域应用助力提升临床诊断和药品研发效率 AI注入新动力",
-            summary: "人工智能在临床诊断、药品研发等多个医疗领域应用，显著提升诊疗效率和研发速度，为健康服务注入新动力。",
-            source: "新浪",
-            url: "http://k.sina.com.cn/article_7879848900_1d5acf3c401902wgzw.html"
+            title: "EcoRxAgent: an AI agent for generating economically substitutable prescriptions",
+            summary: "AI代理生成经济可替代处方，降低医疗成本同时保证治疗效果，AI药物经济学应用。",
+            source: "npj Digital Medicine",
+            url: "https://www.nature.com/articles/s41746-026-02612-7"
         },
         {
-            title: "德适-B核心业务为医学影像AI基座大模型 支持超90%临床场景",
-            summary: "医学影像大模型第一股德适专注AI医学影像底层技术创新，自主研发iMedImage医学影像基座模型，支持19种影像模态。",
-            source: "百家号",
-            url: "https://baijiahao.baidu.com/s?id=1861867710921325193"
+            title: "CDRH targets hospital readmissions with home device innovation challenge",
+            summary: "FDA医疗器械中心(CDRH)推出家庭设备创新挑战赛，旨在降低医院再入院率，鼓励AI家庭医疗设备开发。",
+            source: "MedTech Dive",
+            url: "https://www.medtechdive.com/news/cdrh-targets-hospital-readmissions-with-home-device-innovation-challenge/817071/"
         },
         {
-            title: "江苏率先实现医疗器械智能化审评审批 效率提升50%",
-            summary: "江苏在全国率先启动医疗器械智能化审评审批项目，AI赋能审评审批，吻合器类产品初审由5个工作日缩短为5分钟，审评效率提升50%。",
-            source: "百家号",
-            url: "https://baijiahao.baidu.com/s?id=1861897254535743255"
+            title: "Digital health funding concentrates in fewer startups: report",
+            summary: "数字健康融资报告显示资金集中在更少初创公司，AI医疗投资趋势向头部企业集中，投融资市场分化明显。",
+            source: "MedTech Dive",
+            url: "https://www.medtechdive.com/news/digital-health-funding-concentrates-fewer-startups-q1-2026-rock-health/816933/"
         }
     ]
 };
