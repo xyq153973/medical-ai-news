@@ -1,6 +1,6 @@
 // 新闻数据存储
 // 格式: { "YYYY-MM-DD": [ { title, summary, source, url }, ... ] }
-// 最后更新: 2026/4/9 23:15:00
+// 最后更新: 2026/4/10 17:10:00
 
 const allNewsData = {
     "2026-04-08": [
@@ -125,6 +125,68 @@ const allNewsData = {
             summary: "数字健康融资报告显示资金集中在更少初创公司，AI医疗投资趋势向头部企业集中，投融资市场分化明显。",
             source: "MedTech Dive",
             url: "https://www.medtechdive.com/news/digital-health-funding-concentrates-fewer-startups-q1-2026-rock-health/816933/"
+        }
+    ],
+    "2026-04-10": [
+        {
+            title: "Pursuit of biomarkers of brain diseases: beyond cohort comparisons",
+            summary: "脑疾病生物标志物研究的新视角，超越传统队列比较方法，探索AI在神经疾病诊断和监测中的应用前景。",
+            source: "npj Digital Medicine",
+            url: "https://www.nature.com/articles/s41746-026-02614-5"
+        },
+        {
+            title: "The landscape of artificial intelligence-enabled medical devices in the EU and the US intended for intensive care units",
+            summary: "欧盟和美国ICU用AI医疗器械全景分析，对比两大市场的监管框架、审批流程和市场准入要求。",
+            source: "npj Digital Medicine",
+            url: "https://www.nature.com/articles/s41746-026-02609-2"
+        },
+        {
+            title: "Multicenter validation and updating of the ELDER-ICU model for severity assessment in elderly critical illness",
+            summary: "ELDER-ICU模型多中心验证与更新，AI模型用于老年重症患者严重程度评估，提升ICU诊疗精准度。",
+            source: "npj Digital Medicine",
+            url: "https://www.nature.com/articles/s41746-026-02472-1"
+        },
+        {
+            title: "FDA, medtech industry near MDUFA VI agreement",
+            summary: "FDA与医疗器械行业即将达成MDUFA VI协议，影响未来5年医疗器械审批费用和流程，AI医疗器械监管受关注。",
+            source: "MedTech Dive",
+            url: "https://www.medtechdive.com/news/fda-medtech-industry-near-mdufa-vi-agreement/817131/"
+        },
+        {
+            title: "E2 raises $80M to market thrombectomy platform",
+            summary: "E2公司完成8000万美元融资，用于血栓切除平台市场化，AI辅助介入治疗设备获资本青睐。",
+            source: "MedTech Dive",
+            url: "https://www.medtechdive.com/news/endovascular-engineering-e2-80M-funding-round-mechanical-thrombectomy/817138/"
+        },
+        {
+            title: "Judge allows states' lawsuit over HHS restructuring to move forward",
+            summary: "法院允许各州就HHS重组提起诉讼，FDA医疗器械审批流程可能受影响，AI医疗器械监管面临不确定性。",
+            source: "MedTech Dive",
+            url: "https://www.medtechdive.com/news/judge-allows-states-lawsuit-hhs-restructuring-layoffs-move-forward/817117/"
+        },
+        {
+            title: "Philips warns not to use certain nebulizers in Trilogy Evo ventilator recall",
+            summary: "飞利浦警告不要在Trilogy Evo呼吸机召回中使用某些雾化器，医疗器械安全性问题持续发酵。",
+            source: "MedTech Dive",
+            url: "https://www.medtechdive.com/news/philips-warns-not-to-use-certain-nebulizers-in-trilogy-evo-ventilator-recal/816981/"
+        },
+        {
+            title: "UK steps up push to align medtech regulations with the US",
+            summary: "英国加强与美国医疗器械监管协调，探索互认机制，AI医疗器械国际监管趋同化。",
+            source: "MedTech Dive",
+            url: "https://www.medtechdive.com/news/uk-steps-up-push-to-align-medtech-regulations-with-the-us/816790/"
+        },
+        {
+            title: "J&J launches enhanced PFA device in Europe",
+            summary: "强生在欧洲推出增强型脉冲场消融设备，AI辅助心脏介入治疗设备获CE认证。",
+            source: "MedTech Dive",
+            url: "https://www.medtechdive.com/news/Johnson-jnj-varipulse-pro-pfa-pulsed-field-ablation-ce-mark/816836/"
+        },
+        {
+            title: "Whoop raises $575M, adds Abbott as strategic investor",
+            summary: "可穿戴设备公司Whoop融资5.75亿美元，雅培成为战略投资者，AI健康监测市场持续升温。",
+            source: "MedTech Dive",
+            url: "https://www.medtechdive.com/news/whoop-raises-575m-adds-abbott-as-strategic-investor/816229/"
         }
     ]
 };
