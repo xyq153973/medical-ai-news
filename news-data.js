@@ -1,8 +1,70 @@
 // 新闻数据存储
 // 格式: { "YYYY-MM-DD": [ { title, summary, source, url }, ... ] }
-// 最后更新: 2026/4/10 17:10:00
+// 最后更新: 2026/4/12 18:10:00
 
 const allNewsData = {
+    "2026-04-12": [
+        {
+            title: "Application of machine learning in osteoporosis screening: a narrative review",
+            summary: "机器学习在骨质疏松症筛查中的应用综述，AI算法提升骨密度检测准确性和早期诊断能力。",
+            source: "npj Digital Medicine",
+            url: "https://www.nature.com/articles/s41746-026-02516-6"
+        },
+        {
+            title: "Graphicalized vision-language modeling for comprehensive lung nodule analysis and risk stratification",
+            summary: "图形化视觉语言模型用于肺结节综合分析和风险分层，AI影像诊断技术新突破。",
+            source: "npj Digital Medicine",
+            url: "https://www.nature.com/articles/s41746-026-02602-9"
+        },
+        {
+            title: "Cardiovascular digital twins using a Windkessel physics informed neural network",
+            summary: "使用Windkessel物理信息神经网络构建心血管数字孪生，AI精准医疗新进展。",
+            source: "npj Digital Medicine",
+            url: "https://www.nature.com/articles/s41746-026-02610-9"
+        },
+        {
+            title: "Evaluating AI in leukocyte classification: performance of the AI system against 15 morphology experts",
+            summary: "AI白细胞分类系统与15位形态学专家对比评估，AI诊断准确率达到专家水平。",
+            source: "npj Digital Medicine",
+            url: "https://www.nature.com/articles/s41746-026-02601-w"
+        },
+        {
+            title: "Predicting bilingual aphasia treatment outcomes using digital twins: a double-blind randomized controlled trial",
+            summary: "使用数字孪生预测双语失语症治疗结果的双盲随机对照试验，AI个性化治疗新突破。",
+            source: "npj Digital Medicine",
+            url: "https://www.nature.com/articles/s41746-026-02583-9"
+        },
+        {
+            title: "Stryker is fully operational after cyberattack",
+            summary: "史赛克公司在遭受网络攻击一个月后全面恢复运营，医疗器械网络安全问题引发关注。",
+            source: "MedTech Dive",
+            url: "https://www.medtechdive.com/news/stryker-is-fully-operational-one-month-after-cyberattack/817218/"
+        },
+        {
+            title: "Pulse Biosciences hires Liane Teplitsky as COO",
+            summary: "Pulse Biosciences聘请Liane Teplitsky为首席运营官，医疗器械公司高管变动。",
+            source: "MedTech Dive",
+            url: "https://www.medtechdive.com/news/pulse-biosciences-hires-liane-teplitsky-as-coo/817166/"
+        },
+        {
+            title: "How AI tools are transforming the medtech space",
+            summary: "AI工具如何改变医疗器械行业，从检测到预防，探索AI医疗设备在多种疾病中的扩展能力。",
+            source: "MedTech Dive",
+            url: "https://www.medtechdive.com/trendline/ai-diagnostics/578/"
+        },
+        {
+            title: "CDRH targets hospital readmissions with home device innovation challenge",
+            summary: "FDA医疗器械中心(CDRH)推出家庭设备创新挑战赛，计划挑选9款设备支持患者出院后护理。",
+            source: "MedTech Dive",
+            url: "https://www.medtechdive.com/news/cdrh-targets-hospital-readmissions-with-home-device-innovation-challenge/817071/"
+        },
+        {
+            title: "Hologic hires former Baxter leader José Almeida as CEO",
+            summary: "Hologic聘请前百特领导者José Almeida为CEO，配合183亿美元私有化交易完成。",
+            source: "MedTech Dive",
+            url: "https://www.medtechdive.com/news/hologic-hires-ex-baxter-leader-jose-almeida-as-ceo/816919/"
+        }
+    ],
     "2026-04-08": [
         {
             title: "北京发布32条新举措 AI融入医药研发全环节",
