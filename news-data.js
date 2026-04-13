@@ -1,8 +1,70 @@
 // 新闻数据存储
 // 格式: { "YYYY-MM-DD": [ { title, summary, source, url }, ... ] }
-// 最后更新: 2026/4/13 09:00:00
+// 最后更新: 2026/4/14 00:30:00
 
 const allNewsData = {
+    "2026-04-14": [
+        {
+            title: "An exploratory study of headache pain intensity using facial expressions and APEX frames",
+            summary: "使用面部表情和APEX帧研究头痛疼痛强度的探索性研究，AI技术用于疼痛评估新方法。",
+            source: "npj Digital Medicine",
+            url: "https://www.nature.com/articles/s41746-026-02617-2"
+        },
+        {
+            title: "Automating the quality monitoring of a hospital discharge summary improvement project utilising large language models",
+            summary: "利用大语言模型自动化监测医院出院小结质量改进项目，AI提升医疗文档质量。",
+            source: "npj Digital Medicine",
+            url: "https://www.nature.com/articles/s41746-026-02636-z"
+        },
+        {
+            title: "A case study comparing anonymized and synthetic health insurance claims data for medication safety assessments",
+            summary: "比较匿名化和合成健康保险索赔数据用于药物安全评估的案例研究，AI数据隐私保护新进展。",
+            source: "npj Digital Medicine",
+            url: "https://www.nature.com/articles/s41746-026-02622-5"
+        },
+        {
+            title: "Wearable ECG and PPG for anxiety detection: a translational digital medicine perspective",
+            summary: "可穿戴ECG和PPG用于焦虑检测：转化数字医学视角，AI心理健康监测新突破。",
+            source: "npj Digital Medicine",
+            url: "https://www.nature.com/articles/s41746-026-02620-7"
+        },
+        {
+            title: "Unified multimodal learning for stroke triage: joint detection, scoring, and segmentation of acute ischemic stroke",
+            summary: "统一多模态学习用于卒中分诊：急性缺血性卒中的联合检测、评分和分割，AI影像诊断新进展。",
+            source: "npj Digital Medicine",
+            url: "https://www.nature.com/articles/s41746-025-02255-0"
+        },
+        {
+            title: "Stryker to buy Amplitude Vascular Systems",
+            summary: "史赛克收购Amplitude Vascular Systems，血管内碎石技术有望挑战Shockwave IVL。",
+            source: "MedTech Dive",
+            url: "https://www.medtechdive.com/news/stryker-to-buy-amplitude-vascular-systems/817322/"
+        },
+        {
+            title: "Stryker is fully operational after cyberattack",
+            summary: "史赛克公司在遭受网络攻击一个月后全面恢复运营，医疗器械网络安全问题引发关注。",
+            source: "MedTech Dive",
+            url: "https://www.medtechdive.com/news/stryker-is-fully-operational-one-month-after-cyberattack/817218/"
+        },
+        {
+            title: "Pulse Biosciences hires Liane Teplitsky as COO",
+            summary: "Pulse Biosciences聘请Liane Teplitsky为首席运营官，医疗器械公司高管变动。",
+            source: "MedTech Dive",
+            url: "https://www.medtechdive.com/news/pulse-biosciences-hires-liane-teplitsky-as-coo/817166/"
+        },
+        {
+            title: "FDA, medtech industry near MDUFA VI agreement",
+            summary: "FDA与医疗器械行业即将达成MDUFA VI协议，影响未来5年医疗器械审批费用和流程。",
+            source: "MedTech Dive",
+            url: "https://www.medtechdive.com/news/fda-medtech-industry-near-mdufa-vi-agreement/817131/"
+        },
+        {
+            title: "E2 raises $80M to market thrombectomy platform",
+            summary: "E2公司完成8000万美元融资，用于血栓切除平台市场化，AI辅助介入治疗设备获资本青睐。",
+            source: "MedTech Dive",
+            url: "https://www.medtechdive.com/news/endovascular-engineering-e2-80M-funding-round-mechanical-thrombectomy/817138/"
+        }
+    ],
     "2026-04-13": [
         {
             title: "Application of machine learning in osteoporosis screening: a narrative review",
