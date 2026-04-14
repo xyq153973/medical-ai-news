@@ -1,8 +1,70 @@
 // 新闻数据存储
 // 格式: { "YYYY-MM-DD": [ { title, summary, source, url }, ... ] }
-// 最后更新: 2026/4/14 00:30:00
+// 最后更新: 2026/4/15 00:00:00
 
 const allNewsData = {
+    "2026-04-15": [
+        {
+            title: "Evaluating real-world deployment of an HL7-CDA-aligned LLM for ICD-10-CM coding",
+            summary: "评估HL7-CDA对齐的大语言模型用于ICD-10-CM编码的实际部署，AI医疗编码系统落地应用。",
+            source: "npj Digital Medicine",
+            url: "https://www.nature.com/articles/s41746-026-02541-5"
+        },
+        {
+            title: "PsychiatryBench: a multi-task benchmark for LLMs in psychiatry",
+            summary: "PsychiatryBench：精神病学大语言模型多任务基准测试，AI心理健康评估新标准。",
+            source: "npj Digital Medicine",
+            url: "https://www.nature.com/articles/s41746-026-02582-w"
+        },
+        {
+            title: "Large language model-augmented offline reinforcement learning framework for sepsis management in critical care",
+            summary: "大语言模型增强的离线强化学习框架用于重症监护脓毒症管理，AI临床决策支持新突破。",
+            source: "npj Digital Medicine",
+            url: "https://www.nature.com/articles/s41746-026-02611-8"
+        },
+        {
+            title: "Mapping AI startup investment and innovation in healthcare using a five-tier AI systems complexity framework",
+            summary: "使用五层AI系统复杂性框架绘制医疗AI创业投资和创新图谱，AI医疗投融资趋势分析。",
+            source: "npj Digital Medicine",
+            url: "https://www.nature.com/articles/s41746-026-02595-5"
+        },
+        {
+            title: "J&J's cardiovascular unit stands out again in Q1",
+            summary: "强生心血管部门Q1再次表现突出，战略转向高增长市场如心血管领域取得成效，是该季度唯一实现两位数增长的医疗器械部门。",
+            source: "MedTech Dive",
+            url: "https://www.medtechdive.com/news/jjs-cardiovascular-unit-stands-out-again-in-q1/817443/"
+        },
+        {
+            title: "Stryker to buy Amplitude Vascular Systems",
+            summary: "史赛克收购Amplitude Vascular Systems，血管内碎石技术有望挑战Shockwave IVL。",
+            source: "MedTech Dive",
+            url: "https://www.medtechdive.com/news/stryker-to-buy-amplitude-vascular-systems/817322/"
+        },
+        {
+            title: "Medline recalls angiographic syringes, receives FDA warning letter",
+            summary: "Medline召回血管造影注射器并收到FDA警告信，医疗器械质量控制问题持续。",
+            source: "MedTech Dive",
+            url: "https://www.medtechdive.com/news/medline-recalls-angiographic-syringes-receives-fda-warning-letter/817433/"
+        },
+        {
+            title: "GE HealthCare integrates ultrasound into Medtronic's Stealth AXiS surgical system",
+            summary: "GE医疗将超声集成到美敦力Stealth AXiS手术系统，手术机器人技术整合新进展。",
+            source: "MedTech Dive",
+            url: "https://www.medtechdive.com/news/ge-healthcare-integrates-ultrasound-into-medtronics-stealth-axis-surgical/817277/"
+        },
+        {
+            title: "Pulse Biosciences hires Liane Teplitsky as COO",
+            summary: "Pulse Biosciences聘请前雅培高管Liane Teplitsky为首席运营官，推动脉冲场消融设备上市。",
+            source: "MedTech Dive",
+            url: "https://www.medtechdive.com/news/pulse-biosciences-hires-liane-teplitsky-as-coo/817166/"
+        },
+        {
+            title: "FDA, medtech industry near MDUFA VI agreement",
+            summary: "FDA与医疗器械行业即将达成MDUFA VI协议，计划大量招聘医疗器械审评人员。",
+            source: "MedTech Dive",
+            url: "https://www.medtechdive.com/news/fda-medtech-industry-near-mdufa-vi-agreement/817131/"
+        }
+    ],
     "2026-04-14": [
         {
             title: "An exploratory study of headache pain intensity using facial expressions and APEX frames",
